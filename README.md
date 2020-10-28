@@ -20,7 +20,7 @@ No parameters are necessary to run this script. Script performs following steps:
    - saves the result as data table `dt`
 4. extracts mean and standard deviation variables for each measurement. "UCI HAR Dataset/features_info.txt" describes that the names of these variables contain `mean()` and `std()`. As first step script changes table column names to  `'Subject', 'Activity'` and `col_names` and then selects variables (columns) containing `mean()` and `std()`.
 5. replaces activity codes (numbers) with descriptive activity names, applying replacing function with `sapply()` to `Activity` column of data table `dt`
-6. tidies variable names. Step 4 sets descriptive variable names, this step makes names more readable avoiding especial characters like `- , _ , ( , )`, etc using `sub()´ and `gsub()`
+6. tidies variable names. Step 4 sets descriptive variable names, this step makes names more readable avoiding especial characters like `- , _ , ( , )`, etc using `sub()` and `gsub()`
 7. creates tidy data set with the average of each variable for each subject and each activity:
    - groups data table `dt` by `Subject` and `Activity` with `group_by()`
    - calculates an average for each combination of `Subject` and `Activity` with `summarise(), across(), mean()`
