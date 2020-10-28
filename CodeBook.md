@@ -4,3 +4,9 @@
 | --- | --- | --- | --- |
 | Subject | integer | numeric id for a person who performed activities | 1-30 |
 | Activity | character | activity of observation | WALKING |
+|   |   |   | WALKING |
+|   |   |   | WALKING_UPSTAIRS |
+|   |   |   | WALKING_DOWNSTAIRS |
+|   |   |   | SITTING |
+|   |   |   | STANDING |
+|   |   |   | LAYING |
