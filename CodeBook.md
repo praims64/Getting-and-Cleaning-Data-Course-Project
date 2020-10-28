@@ -1,5 +1,7 @@
 ## DATA DICTIONARY of "Human Activity Recognition Using Smartphones Data Set" tidy data set version
 
+
+#### NB! All values for measured variables are averages for combination of subject and activity
 | Variable | Format | Description | Valid range or Values |
 | --- | --- | --- | --- |
 | Subject | integer | numeric id for a person who performed activities | 1-30 |
