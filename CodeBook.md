@@ -6,7 +6,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 This subset of tidy data has been produced by `run_analysis.R` script. Check the README.md file for further details about preparing of this dataset.
 
 
-### NB! Values of the measurement variables are averages of all combinations of subject and activity
+### NB! Values of the measurement variables are averages for all combinations of subject and activity
 | Variable | Format | Description | Valid range or Values |
 | --- | --- | --- | --- |
 | Subject | integer | numeric id for a person who performed activities | 1-30 |
