@@ -2,12 +2,12 @@
 
 In this project I prepare tidy data from [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-#### Contents of this repo:
+### Contents of this repo:
 1. this `README.md` file
 2. a code book that describes the variables, the data, and transformations performed to clean up the data - `CodeBook.md` file.
 3. a R script for creating tidy data set - `run_analysis.R` file
 
-#### run_analysis.R script
+### run_analysis.R script
 No parameters are necessary to run this script. Script performs following steps:
 1. loads the necessary libraries `data.table` and `dplyr`
 2. loads initial data from files to data tables:
@@ -26,6 +26,6 @@ No parameters are necessary to run this script. Script performs following steps:
    - calculates an average for each combination of `Subject` and `Activity` with `summarise(), across(), mean()`
    - saves the result as data table `dtidy`
    
-#### Initial and tidy data sets
+### Initial and tidy data sets
 - initial data set is available https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - tidy data set has been uploaded to Coursera as text file `"tidy_data.txt"` and can be read with `read.table('tidy_data.txt', header = TRUE)`
