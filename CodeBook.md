@@ -2,6 +2,7 @@
 
 
 
+
 ### NB! All values of the measurement variables are averages of the subject and activity combinations
 | Variable | Format | Description | Valid range or Values |
 | --- | --- | --- | --- |
