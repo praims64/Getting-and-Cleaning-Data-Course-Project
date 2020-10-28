@@ -18,4 +18,4 @@ No parameters are necessary to run this script. Script performs following steps:
    - joins horizontally labels with observetions data `subject_test, y_test, x_test` and `subject_train, y_train, x_train` with `cbind()`
    - joins vertically test and train data sets with `rbind()`
    - saves result as data table `dt`
-4. extracts mean and standard deviation variables for each measurement. "UCI HAR Dataset/features_info.txt" describes that the names of these variables contain `mean()` and `std()`. As first step script changes table column names to  'Subject', 'Activity' and col_names and then selects variables (columns) containing contain `mean()` and `std()`.
+4. extracts mean and standard deviation variables for each measurement. "UCI HAR Dataset/features_info.txt" describes that the names of these variables contain `mean()` and `std()`. As first step script changes table column names to  `'Subject', 'Activity'` and `col_names` and then selects variables (columns) containing contain `mean()` and `std()`.
