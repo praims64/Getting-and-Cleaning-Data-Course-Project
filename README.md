@@ -15,3 +15,5 @@ No parameters are necessary to run this script. Script performs following steps:
    - training data set from "UCI HAR Dataset/train/" directory - "X_train.csv" and label files "y_train.csv" and "subject_train.csv" to corresponding tables `x_train` (observations data), `y_train` (activity codes) and `subject_train` (subject codes)
    - observations variables names from "UCI HAR Dataset/features.txt" and activities (descriptive) labels from "UCI HAR Dataset/activity_labels.txt" to corresponding tables `col_names` and `activity_labels`
 3. merges the training and the test data and labels to create one data set
+   - joins horizontally `subject_test, y_test, x_test` and `subject_train, y_train, x_train` with `cbind()`
+   - joins vertically test and train data sets with `rbind()`
